@@ -1,0 +1,75 @@
+21-07-2016 11:21:05.603: LogManager: Started
+21-07-2016 11:21:16.055: CyBLE_MTK: Initialization complete
+21-07-2016 11:21:25.899: CyBLE_MTK: Authenticating...
+21-07-2016 11:21:26.991: CyBLE_MTK: Supervisory mode entered.
+21-07-2016 11:23:58.950: SerialPortSettingsDialog: 3 serial ports found.
+21-07-2016 11:24:04.972: SerialPortSettingsDialog: 3 serial ports found.
+21-07-2016 11:24:07.078: SerialPortSettingsDialog: Connected to "COM75 - KitProg USB-UART (COM75)".
+21-07-2016 11:24:12.039: SerialPortSettingsDialog: 3 serial ports found.
+21-07-2016 11:24:14.737: SerialPortSettingsDialog: Connected to "COM58 - KitProg USB-UART (COM58)".
+21-07-2016 11:24:17.374: TestProgramManager: Loading test program.
+21-07-2016 11:24:22.927: TestProgramManager: Test program successfully loaded from C:\Users\pzho\Desktop\Generic MTk\02200100\22200500.xml
+21-07-2016 11:24:26.359: CyBLE_MTK: Running test program.
+21-07-2016 11:24:26.391: TestProgramManager: Selecting DUT 1/1 for tests
+21-07-2016 11:24:26.500: TestProgramManager: Running test program 1/5
+21-07-2016 11:24:26.593: MTKTestDelay: Waiting for: 1000
+21-07-2016 11:24:27.607: MTKTestDelay: Result: DONE
+21-07-2016 11:24:27.623: TestProgramManager: Running test program 2/5
+21-07-2016 11:24:27.639: MTKTestSTC: STC: Packet Count:500
+21-07-2016 11:24:32.943: MTKTestSTC: Result: PASS
+21-07-2016 11:24:32.958: TestProgramManager: Running test program 3/5
+21-07-2016 11:24:32.989: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+21-07-2016 11:24:33.067: MTKTestCUS: Waiting for: 0
+21-07-2016 11:24:33.099: MTKTestCUS: Result: FAIL
+21-07-2016 11:24:33.099: TestProgramManager: Pausing test program.
+21-07-2016 11:24:33.177: TestProgramManager: Test program paused.
+21-07-2016 11:24:35.142: TestProgramManager: Continuing test program.
+21-07-2016 11:24:35.142: TestProgramManager: Running test program 4/5
+21-07-2016 11:24:35.158: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 50ms | RetVal[0] == 1A, RetVal[1] == 02
+21-07-2016 11:24:35.236: MTKTestCUS: Waiting for: 50
+21-07-2016 11:24:35.329: MTKTestCUS: Result: FAIL
+21-07-2016 11:24:35.329: TestProgramManager: Pausing test program.
+21-07-2016 11:24:35.361: TestProgramManager: Test program paused.
+21-07-2016 11:24:36.094: TestProgramManager: Continuing test program.
+21-07-2016 11:24:36.109: TestProgramManager: Running test program 5/5
+21-07-2016 11:24:36.125: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+21-07-2016 11:24:36.187: MTKTestCUS: Waiting for: 0
+21-07-2016 11:24:36.219: MTKTestCUS: Result: PASS
+21-07-2016 11:24:36.219: TestProgramManager: Pausing test program.
+21-07-2016 11:24:36.250: TestProgramManager: Overall test result: FAIL
+21-07-2016 11:24:36.281: CyBLE_MTK: Test program stopped.
+21-07-2016 11:24:40.399: CyBLE_MTK: Running test program.
+21-07-2016 11:24:40.431: TestProgramManager: Selecting DUT 1/1 for tests
+21-07-2016 11:24:40.540: TestProgramManager: Running test program 1/5
+21-07-2016 11:24:40.555: MTKTestDelay: Waiting for: 1000
+21-07-2016 11:24:41.569: MTKTestDelay: Result: DONE
+21-07-2016 11:24:41.569: TestProgramManager: Running test program 2/5
+21-07-2016 11:24:41.585: MTKTestSTC: STC: Packet Count:500
+21-07-2016 11:24:46.873: MTKTestSTC: Result: PASS
+21-07-2016 11:24:46.873: TestProgramManager: Running test program 3/5
+21-07-2016 11:24:46.889: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+21-07-2016 11:24:46.967: MTKTestCUS: Waiting for: 0
+21-07-2016 11:24:46.998: MTKTestCUS: Result: FAIL
+21-07-2016 11:24:46.998: TestProgramManager: Pausing test program.
+21-07-2016 11:24:47.029: TestProgramManager: Test program paused.
+21-07-2016 11:24:49.291: TestProgramManager: Continuing test program.
+21-07-2016 11:24:49.291: TestProgramManager: Running test program 4/5
+21-07-2016 11:24:49.291: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 50ms | RetVal[0] == 1A, RetVal[1] == 02
+21-07-2016 11:24:49.369: MTKTestCUS: Waiting for: 50
+21-07-2016 11:24:49.463: MTKTestCUS: Result: FAIL
+21-07-2016 11:24:49.463: TestProgramManager: Pausing test program.
+21-07-2016 11:24:49.494: TestProgramManager: Test program paused.
+21-07-2016 11:24:50.025: TestProgramManager: Continuing test program.
+21-07-2016 11:24:50.025: TestProgramManager: Running test program 5/5
+21-07-2016 11:24:50.040: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+21-07-2016 11:24:50.134: MTKTestCUS: Waiting for: 0
+21-07-2016 11:24:50.165: MTKTestCUS: Result: PASS
+21-07-2016 11:24:50.165: TestProgramManager: Pausing test program.
+21-07-2016 11:24:50.196: TestProgramManager: Overall test result: FAIL
+21-07-2016 11:24:50.227: CyBLE_MTK: Test program stopped.
+21-07-2016 11:25:13.035: CyBLE_MTK: Cleaning Up...
+21-07-2016 11:25:13.050: CyBLE_MTK: Test program stopped.
+21-07-2016 11:25:13.066: SerialPortSettingsDialog: Disconnected from "COM75 - KitProg USB-UART (COM75)".
+21-07-2016 11:25:13.066: SerialPortSettingsDialog: Disconnected from "COM3 - Intel(R) Active Management Technology - SOL (COM3)".
+21-07-2016 11:25:13.081: TestProgramManager: 22200500.xml - test program closed.
+21-07-2016 11:25:13.128: LogManager: Stopped

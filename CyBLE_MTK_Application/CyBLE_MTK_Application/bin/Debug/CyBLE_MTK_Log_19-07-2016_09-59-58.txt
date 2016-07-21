@@ -1,0 +1,499 @@
+19-07-2016 09:59:58.177: LogManager: Started
+19-07-2016 10:00:02.301: CyBLE_MTK: Initialization complete
+19-07-2016 10:00:07.955: TestProgramManager: Loading test program.
+19-07-2016 10:00:25.995: TestProgramManager: Test program successfully loaded from C:\Users\pzho\Desktop\Generic MTk\02200100\GenericMTK_FinalTest program.xml
+19-07-2016 10:00:31.852: CyBLE_MTK: Authenticating...
+19-07-2016 10:00:33.164: CyBLE_MTK: Supervisory mode entered.
+19-07-2016 10:00:35.444: CyBLE_MTK: Editing test program.
+19-07-2016 10:00:45.959: CyBLE_MTK: Test program edits complete.
+19-07-2016 10:22:44.179: SerialPortSettingsDialog: 2 serial ports found.
+19-07-2016 10:22:47.892: SerialPortSettingsDialog: Connected to "COM72 - KitProg USB-UART (COM72)".
+19-07-2016 10:23:05.311: SerialPortSettingsDialog: 3 serial ports found.
+19-07-2016 10:23:08.977: SerialPortSettingsDialog: Connected to "COM58 - KitProg USB-UART (COM58)".
+19-07-2016 10:23:21.832: CyBLE_MTK: Running test program.
+19-07-2016 10:23:21.895: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:23:21.957: TestProgramManager: Running test program 1/5
+19-07-2016 10:23:21.973: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:23:22.987: MTKTestDelay: Result: DONE
+19-07-2016 10:23:22.987: TestProgramManager: Running test program 2/5
+19-07-2016 10:23:23.002: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:23:28.307: MTKTestSTC: Result: PASS
+19-07-2016 10:23:28.307: TestProgramManager: Running test program 3/5
+19-07-2016 10:23:28.338: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:23:28.416: MTKTestCUS: Waiting for: 0
+19-07-2016 10:23:28.447: MTKTestCUS: Result: PASS
+19-07-2016 10:23:28.447: TestProgramManager: Running test program 4/5
+19-07-2016 10:23:28.463: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:23:28.541: MTKTestCUS: Waiting for: 0
+19-07-2016 10:23:28.572: MTKTestCUS: Result: FAIL
+19-07-2016 10:23:28.572: TestProgramManager: Pausing test program.
+19-07-2016 10:23:28.603: TestProgramManager: Test program paused.
+19-07-2016 10:23:36.918: TestProgramManager: Continuing test program.
+19-07-2016 10:23:36.918: TestProgramManager: Running test program 5/5
+19-07-2016 10:23:36.934: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:23:37.012: MTKTestCUS: Waiting for: 0
+19-07-2016 10:23:37.043: MTKTestCUS: Result: PASS
+19-07-2016 10:23:37.043: TestProgramManager: Pausing test program.
+19-07-2016 10:23:37.058: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:23:37.074: CyBLE_MTK: Test program stopped.
+19-07-2016 10:23:40.350: CyBLE_MTK: Editing preferences.
+19-07-2016 10:23:46.091: PreferencesDialog: Application Log Path:  > D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7 - Sigma\CyBLE_MTK_Application\CyBLE_MTK_Application\bin\Debug
+19-07-2016 10:23:46.091: PreferencesDialog: Test Log Path:  > D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7 - Sigma\CyBLE_MTK_Application\CyBLE_MTK_Application\bin\Debug
+19-07-2016 10:23:46.091: PreferencesDialog: Pause test program on test failure.: True > False
+19-07-2016 10:24:01.389: CyBLE_MTK: Editing preferences.
+19-07-2016 10:24:13.682: PreferencesDialog: Set application to log:: Relevant > Everything
+19-07-2016 10:24:13.698: PreferencesDialog: All changes saved.
+19-07-2016 10:24:17.011: CyBLE_MTK: Running test program.
+19-07-2016 10:24:17.042: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:24:17.089: TestProgramManager: Running test program 1/5
+19-07-2016 10:24:17.104: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:24:18.118: MTKTestDelay: Result: DONE
+19-07-2016 10:24:18.118: TestProgramManager: Running test program 2/5
+19-07-2016 10:24:18.134: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:24:23.423: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:24:23.423: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:24:23.423: MTKTestSTC: Result: PASS
+19-07-2016 10:24:23.438: TestProgramManager: Running test program 3/5
+19-07-2016 10:24:23.454: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:24:23.532: MTKTestCUS: Waiting for: 0
+19-07-2016 10:24:23.563: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 10:24:23.563: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:24:23.563: MTKTestCUS: Result: PASS
+19-07-2016 10:24:23.579: TestProgramManager: Running test program 4/5
+19-07-2016 10:24:23.594: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:24:23.672: MTKTestCUS: Waiting for: 0
+19-07-2016 10:24:23.703: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:24:23.703: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:24:23.719: MTKTestCUS: Result: FAIL
+19-07-2016 10:24:23.735: TestProgramManager: Running test program 5/5
+19-07-2016 10:24:23.735: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:24:23.813: MTKTestCUS: Waiting for: 0
+19-07-2016 10:24:23.844: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:24:23.844: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 10:24:23.844: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 10:24:23.859: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 10:24:23.859: MTKTestCUS: 20  >=  00: PASS
+19-07-2016 10:24:23.859: MTKTestCUS: 14  >=  00: PASS
+19-07-2016 10:24:23.859: MTKTestCUS: Result: PASS
+19-07-2016 10:24:23.875: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:24:23.875: CyBLE_MTK: Test program stopped.
+19-07-2016 10:25:56.072: CyBLE_MTK: Running test program.
+19-07-2016 10:25:56.150: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:25:56.181: TestProgramManager: Running test program 1/5
+19-07-2016 10:25:56.197: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:25:57.211: MTKTestDelay: Result: DONE
+19-07-2016 10:25:57.211: TestProgramManager: Running test program 2/5
+19-07-2016 10:25:57.227: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:26:02.531: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:26:02.531: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:26:02.531: MTKTestSTC: Result: PASS
+19-07-2016 10:26:02.546: TestProgramManager: Running test program 3/5
+19-07-2016 10:26:02.562: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:02.640: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:02.671: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:26:02.671: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:02.671: MTKTestCUS: Result: FAIL
+19-07-2016 10:26:02.687: TestProgramManager: Running test program 4/5
+19-07-2016 10:26:02.702: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:02.780: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:02.811: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:26:02.811: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:02.811: MTKTestCUS: Result: FAIL
+19-07-2016 10:26:02.827: TestProgramManager: Running test program 5/5
+19-07-2016 10:26:02.827: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:26:02.905: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:02.936: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:26:02.936: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 10:26:02.936: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 10:26:02.936: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 10:26:02.952: MTKTestCUS: 0D  >=  00: PASS
+19-07-2016 10:26:02.952: MTKTestCUS: 15  >=  00: PASS
+19-07-2016 10:26:02.952: MTKTestCUS: Result: PASS
+19-07-2016 10:26:02.967: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:26:02.983: CyBLE_MTK: Test program stopped.
+19-07-2016 10:26:25.354: CyBLE_MTK: Running test program.
+19-07-2016 10:26:25.400: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:26:25.432: TestProgramManager: Running test program 1/5
+19-07-2016 10:26:25.447: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:26:26.461: MTKTestDelay: Result: DONE
+19-07-2016 10:26:26.461: TestProgramManager: Running test program 2/5
+19-07-2016 10:26:26.477: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:26:31.765: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:26:31.765: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:26:31.765: MTKTestSTC: Result: PASS
+19-07-2016 10:26:31.781: TestProgramManager: Running test program 3/5
+19-07-2016 10:26:31.797: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:31.875: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:31.906: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 10:26:31.906: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:31.906: MTKTestCUS: Result: PASS
+19-07-2016 10:26:31.906: TestProgramManager: Running test program 4/5
+19-07-2016 10:26:31.921: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:31.999: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:32.031: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:26:32.031: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:32.031: MTKTestCUS: Result: FAIL
+19-07-2016 10:26:32.046: TestProgramManager: Running test program 5/5
+19-07-2016 10:26:32.062: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:26:32.140: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:32.171: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: 08  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: 15  >=  00: PASS
+19-07-2016 10:26:32.171: MTKTestCUS: Result: PASS
+19-07-2016 10:26:32.187: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:26:32.187: CyBLE_MTK: Test program stopped.
+19-07-2016 10:26:48.161: CyBLE_MTK: Running test program.
+19-07-2016 10:26:48.208: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:26:48.255: TestProgramManager: Running test program 1/5
+19-07-2016 10:26:48.255: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:26:49.284: MTKTestDelay: Result: DONE
+19-07-2016 10:26:49.284: TestProgramManager: Running test program 2/5
+19-07-2016 10:26:49.300: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:26:54.604: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:26:54.620: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:26:54.635: MTKTestSTC: Result: PASS
+19-07-2016 10:26:54.635: TestProgramManager: Running test program 3/5
+19-07-2016 10:26:54.651: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:54.729: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:54.760: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:26:54.760: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:54.760: MTKTestCUS: Result: FAIL
+19-07-2016 10:26:54.776: TestProgramManager: Running test program 4/5
+19-07-2016 10:26:54.791: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:26:54.854: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:54.885: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 10:26:54.885: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:26:54.885: MTKTestCUS: Result: FAIL
+19-07-2016 10:26:54.900: TestProgramManager: Running test program 5/5
+19-07-2016 10:26:54.900: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:26:54.978: MTKTestCUS: Waiting for: 0
+19-07-2016 10:26:55.010: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:26:55.010: MTKTestCUS: E5  >=  00: PASS
+19-07-2016 10:26:55.010: MTKTestCUS: 04  >=  00: PASS
+19-07-2016 10:26:55.010: MTKTestCUS: 09  >=  00: PASS
+19-07-2016 10:26:55.010: MTKTestCUS: 28  >=  00: PASS
+19-07-2016 10:26:55.025: MTKTestCUS: 24  >=  00: PASS
+19-07-2016 10:26:55.025: MTKTestCUS: Result: PASS
+19-07-2016 10:26:55.041: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:26:55.041: CyBLE_MTK: Test program stopped.
+19-07-2016 10:45:26.738: CyBLE_MTK: Running test program.
+19-07-2016 10:45:26.769: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:45:26.816: TestProgramManager: Running test program 1/5
+19-07-2016 10:45:26.816: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:45:27.845: MTKTestDelay: Result: DONE
+19-07-2016 10:45:27.845: TestProgramManager: Running test program 2/5
+19-07-2016 10:45:27.861: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:45:33.165: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:45:33.165: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:45:33.165: MTKTestSTC: Result: PASS
+19-07-2016 10:45:33.181: TestProgramManager: Running test program 3/5
+19-07-2016 10:45:33.196: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:45:33.274: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:33.305: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:45:33.305: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:45:33.305: MTKTestCUS: Result: FAIL
+19-07-2016 10:45:33.321: TestProgramManager: Running test program 4/5
+19-07-2016 10:45:33.337: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:45:33.415: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:33.446: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:45:33.446: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:45:33.446: MTKTestCUS: Result: FAIL
+19-07-2016 10:45:33.461: TestProgramManager: Running test program 5/5
+19-07-2016 10:45:33.477: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:45:33.555: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:33.586: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: 20  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: 14  >=  00: PASS
+19-07-2016 10:45:33.586: MTKTestCUS: Result: PASS
+19-07-2016 10:45:33.602: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:45:33.602: CyBLE_MTK: Test program stopped.
+19-07-2016 10:45:41.698: CyBLE_MTK: Running test program.
+19-07-2016 10:45:41.745: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:45:41.792: TestProgramManager: Running test program 1/5
+19-07-2016 10:45:41.792: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:45:42.806: MTKTestDelay: Result: DONE
+19-07-2016 10:45:42.806: TestProgramManager: Running test program 2/5
+19-07-2016 10:45:42.821: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:45:48.125: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:45:48.125: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:45:48.125: MTKTestSTC: Result: PASS
+19-07-2016 10:45:48.141: TestProgramManager: Running test program 3/5
+19-07-2016 10:45:48.156: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:45:48.234: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:48.266: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:45:48.266: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:45:48.266: MTKTestCUS: Result: FAIL
+19-07-2016 10:45:48.281: TestProgramManager: Running test program 4/5
+19-07-2016 10:45:48.281: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:45:48.344: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:48.375: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:45:48.375: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:45:48.375: MTKTestCUS: Result: FAIL
+19-07-2016 10:45:48.390: TestProgramManager: Running test program 5/5
+19-07-2016 10:45:48.390: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:45:48.468: MTKTestCUS: Waiting for: 0
+19-07-2016 10:45:48.500: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:45:48.500: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 10:45:48.500: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 10:45:48.500: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 10:45:48.500: MTKTestCUS: 20  >=  00: PASS
+19-07-2016 10:45:48.515: MTKTestCUS: 14  >=  00: PASS
+19-07-2016 10:45:48.515: MTKTestCUS: Result: PASS
+19-07-2016 10:45:48.531: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:45:48.531: CyBLE_MTK: Test program stopped.
+19-07-2016 10:46:12.399: CyBLE_MTK: Running test program.
+19-07-2016 10:46:12.446: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:46:12.492: TestProgramManager: Running test program 1/5
+19-07-2016 10:46:12.492: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:46:13.506: MTKTestDelay: Result: DONE
+19-07-2016 10:46:13.506: TestProgramManager: Running test program 2/5
+19-07-2016 10:46:13.522: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:46:18.826: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:46:18.826: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:46:18.826: MTKTestSTC: Result: PASS
+19-07-2016 10:46:18.842: TestProgramManager: Running test program 3/5
+19-07-2016 10:46:18.857: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:46:18.935: MTKTestCUS: Waiting for: 0
+19-07-2016 10:46:18.966: MTKTestCUS: 2A  ==  1A: FAIL
+19-07-2016 10:46:18.966: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:46:18.966: MTKTestCUS: Result: FAIL
+19-07-2016 10:46:18.982: TestProgramManager: Running test program 4/5
+19-07-2016 10:46:18.982: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:46:19.044: MTKTestCUS: Waiting for: 0
+19-07-2016 10:46:19.076: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:46:19.076: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:46:19.076: MTKTestCUS: Result: FAIL
+19-07-2016 10:46:19.091: TestProgramManager: Running test program 5/5
+19-07-2016 10:46:19.107: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:46:19.169: MTKTestCUS: Waiting for: 0
+19-07-2016 10:46:19.200: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:46:19.200: MTKTestCUS: E5  >=  00: PASS
+19-07-2016 10:46:19.200: MTKTestCUS: 04  >=  00: PASS
+19-07-2016 10:46:19.200: MTKTestCUS: 09  >=  00: PASS
+19-07-2016 10:46:19.200: MTKTestCUS: 28  >=  00: PASS
+19-07-2016 10:46:19.200: MTKTestCUS: 24  >=  00: PASS
+19-07-2016 10:46:19.216: MTKTestCUS: Result: PASS
+19-07-2016 10:46:19.216: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:46:19.232: CyBLE_MTK: Test program stopped.
+19-07-2016 10:50:30.525: CyBLE_MTK: Running test program.
+19-07-2016 10:50:30.571: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 10:50:30.603: TestProgramManager: Running test program 1/5
+19-07-2016 10:50:30.618: MTKTestDelay: Waiting for: 1000
+19-07-2016 10:50:31.648: MTKTestDelay: Result: DONE
+19-07-2016 10:50:31.648: TestProgramManager: Running test program 2/5
+19-07-2016 10:50:31.663: MTKTestSTC: STC: Packet Count:500
+19-07-2016 10:50:36.952: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 10:50:36.952: MTKTestSTC: Packets transmitted: 500
+19-07-2016 10:50:36.952: MTKTestSTC: Result: PASS
+19-07-2016 10:50:36.968: TestProgramManager: Running test program 3/5
+19-07-2016 10:50:36.983: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:50:37.061: MTKTestCUS: Waiting for: 0
+19-07-2016 10:50:37.093: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:50:37.093: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:50:37.093: MTKTestCUS: Result: FAIL
+19-07-2016 10:50:37.108: TestProgramManager: Running test program 4/5
+19-07-2016 10:50:37.108: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 10:50:37.171: MTKTestCUS: Waiting for: 0
+19-07-2016 10:50:37.202: MTKTestCUS: AA  ==  1A: FAIL
+19-07-2016 10:50:37.202: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 10:50:37.202: MTKTestCUS: Result: FAIL
+19-07-2016 10:50:37.217: TestProgramManager: Running test program 5/5
+19-07-2016 10:50:37.233: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 10:50:37.311: MTKTestCUS: Waiting for: 0
+19-07-2016 10:50:37.342: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: E5  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: 04  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: 09  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: 28  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: 24  >=  00: PASS
+19-07-2016 10:50:37.342: MTKTestCUS: Result: PASS
+19-07-2016 10:50:37.358: TestProgramManager: Overall test result: FAIL
+19-07-2016 10:50:37.373: CyBLE_MTK: Test program stopped.
+19-07-2016 11:12:14.638: CyBLE_MTK: Running test program.
+19-07-2016 11:12:14.670: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 11:12:14.712: TestProgramManager: Running test program 1/5
+19-07-2016 11:12:14.717: MTKTestDelay: Waiting for: 1000
+19-07-2016 11:12:15.723: MTKTestDelay: Result: DONE
+19-07-2016 11:12:15.731: TestProgramManager: Running test program 2/5
+19-07-2016 11:12:15.739: MTKTestSTC: STC: Packet Count:500
+19-07-2016 11:12:20.111: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 11:12:20.117: MTKTestSTC: Packets transmitted: 500
+19-07-2016 11:12:20.122: MTKTestSTC: Result: PASS
+19-07-2016 11:12:20.130: TestProgramManager: Running test program 3/5
+19-07-2016 11:12:20.149: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:12:20.216: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:20.245: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 11:12:20.247: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:12:20.250: MTKTestCUS: Result: PASS
+19-07-2016 11:12:20.257: TestProgramManager: Running test program 4/5
+19-07-2016 11:12:20.271: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:12:20.328: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:20.354: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 11:12:20.357: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:12:20.359: MTKTestCUS: Result: FAIL
+19-07-2016 11:12:20.376: TestProgramManager: Running test program 5/5
+19-07-2016 11:12:20.383: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 11:12:20.429: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:20.460: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 11:12:20.465: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 11:12:20.471: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 11:12:20.476: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 11:12:20.481: MTKTestCUS: 20  >=  00: PASS
+19-07-2016 11:12:20.485: MTKTestCUS: 14  >=  00: PASS
+19-07-2016 11:12:20.490: MTKTestCUS: Result: PASS
+19-07-2016 11:12:20.507: TestProgramManager: Overall test result: FAIL
+19-07-2016 11:12:20.513: CyBLE_MTK: Test program stopped.
+19-07-2016 11:12:42.766: CyBLE_MTK: Running test program.
+19-07-2016 11:12:42.813: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 11:12:42.860: TestProgramManager: Running test program 1/5
+19-07-2016 11:12:42.872: MTKTestDelay: Waiting for: 1000
+19-07-2016 11:12:43.875: MTKTestDelay: Result: DONE
+19-07-2016 11:12:43.879: TestProgramManager: Running test program 2/5
+19-07-2016 11:12:43.891: MTKTestSTC: STC: Packet Count:500
+19-07-2016 11:12:48.257: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 11:12:48.261: MTKTestSTC: Packets transmitted: 500
+19-07-2016 11:12:48.265: MTKTestSTC: Result: PASS
+19-07-2016 11:12:48.282: TestProgramManager: Running test program 3/5
+19-07-2016 11:12:48.295: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:12:48.353: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:48.377: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 11:12:48.380: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:12:48.382: MTKTestCUS: Result: FAIL
+19-07-2016 11:12:48.400: TestProgramManager: Running test program 4/5
+19-07-2016 11:12:48.408: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:12:48.456: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:48.481: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 11:12:48.483: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:12:48.484: MTKTestCUS: Result: FAIL
+19-07-2016 11:12:48.497: TestProgramManager: Running test program 5/5
+19-07-2016 11:12:48.501: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 11:12:48.555: MTKTestCUS: Waiting for: 0
+19-07-2016 11:12:48.581: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 11:12:48.583: MTKTestCUS: E5  >=  00: PASS
+19-07-2016 11:12:48.584: MTKTestCUS: 04  >=  00: PASS
+19-07-2016 11:12:48.587: MTKTestCUS: 09  >=  00: PASS
+19-07-2016 11:12:48.588: MTKTestCUS: 28  >=  00: PASS
+19-07-2016 11:12:48.591: MTKTestCUS: 24  >=  00: PASS
+19-07-2016 11:12:48.593: MTKTestCUS: Result: PASS
+19-07-2016 11:12:48.605: TestProgramManager: Overall test result: FAIL
+19-07-2016 11:12:48.610: CyBLE_MTK: Test program stopped.
+19-07-2016 11:13:06.280: CyBLE_MTK: Running test program.
+19-07-2016 11:13:06.335: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 11:13:06.374: TestProgramManager: Running test program 1/5
+19-07-2016 11:13:06.386: MTKTestDelay: Waiting for: 1000
+19-07-2016 11:13:07.389: MTKTestDelay: Result: DONE
+19-07-2016 11:13:07.398: TestProgramManager: Running test program 2/5
+19-07-2016 11:13:07.406: MTKTestSTC: STC: Packet Count:500
+19-07-2016 11:13:11.797: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 11:13:11.799: MTKTestSTC: Packets transmitted: 500
+19-07-2016 11:13:11.802: MTKTestSTC: Result: PASS
+19-07-2016 11:13:11.811: TestProgramManager: Running test program 3/5
+19-07-2016 11:13:11.815: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:13:11.870: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:11.899: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 11:13:11.904: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:13:11.907: MTKTestCUS: Result: PASS
+19-07-2016 11:13:11.920: TestProgramManager: Running test program 4/5
+19-07-2016 11:13:11.924: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:13:11.984: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:12.007: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 11:13:12.009: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:13:12.012: MTKTestCUS: Result: FAIL
+19-07-2016 11:13:12.026: TestProgramManager: Running test program 5/5
+19-07-2016 11:13:12.032: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 11:13:12.089: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:12.119: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 11:13:12.124: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 11:13:12.128: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 11:13:12.132: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 11:13:12.138: MTKTestCUS: 08  >=  00: PASS
+19-07-2016 11:13:12.143: MTKTestCUS: 15  >=  00: PASS
+19-07-2016 11:13:12.145: MTKTestCUS: Result: PASS
+19-07-2016 11:13:12.161: TestProgramManager: Overall test result: FAIL
+19-07-2016 11:13:12.164: CyBLE_MTK: Test program stopped.
+19-07-2016 11:13:28.850: CyBLE_MTK: Running test program.
+19-07-2016 11:13:28.891: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 11:13:28.945: TestProgramManager: Running test program 1/5
+19-07-2016 11:13:28.951: MTKTestDelay: Waiting for: 1000
+19-07-2016 11:13:29.953: MTKTestDelay: Result: DONE
+19-07-2016 11:13:29.959: TestProgramManager: Running test program 2/5
+19-07-2016 11:13:29.967: MTKTestSTC: STC: Packet Count:500
+19-07-2016 11:13:34.336: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 11:13:34.343: MTKTestSTC: Packets transmitted: 500
+19-07-2016 11:13:34.348: MTKTestSTC: Result: PASS
+19-07-2016 11:13:34.361: TestProgramManager: Running test program 3/5
+19-07-2016 11:13:34.370: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:13:34.428: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:34.455: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 11:13:34.459: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:13:34.462: MTKTestCUS: Result: PASS
+19-07-2016 11:13:34.467: TestProgramManager: Running test program 4/5
+19-07-2016 11:13:34.478: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 11:13:34.529: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:34.555: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 11:13:34.558: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 11:13:34.560: MTKTestCUS: Result: FAIL
+19-07-2016 11:13:34.575: TestProgramManager: Running test program 5/5
+19-07-2016 11:13:34.582: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 11:13:34.634: MTKTestCUS: Waiting for: 0
+19-07-2016 11:13:34.660: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 11:13:34.663: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 11:13:34.665: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 11:13:34.668: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 11:13:34.670: MTKTestCUS: 0D  >=  00: PASS
+19-07-2016 11:13:34.672: MTKTestCUS: 15  >=  00: PASS
+19-07-2016 11:13:34.675: MTKTestCUS: Result: PASS
+19-07-2016 11:13:34.688: TestProgramManager: Overall test result: FAIL
+19-07-2016 11:13:34.693: CyBLE_MTK: Test program stopped.
+19-07-2016 12:36:18.011: CyBLE_MTK: Editing test program.
+19-07-2016 12:36:31.885: CyBLE_MTK: Test program edits complete.
+19-07-2016 12:36:33.954: CyBLE_MTK: Running test program.
+19-07-2016 12:36:33.985: TestProgramManager: Selecting DUT 1/1 for tests
+19-07-2016 12:36:34.036: TestProgramManager: Running test program 1/5
+19-07-2016 12:36:34.041: MTKTestDelay: Waiting for: 1000
+19-07-2016 12:36:35.044: MTKTestDelay: Result: DONE
+19-07-2016 12:36:35.051: TestProgramManager: Running test program 2/5
+19-07-2016 12:36:35.061: MTKTestSTC: STC: Packet Count:500
+19-07-2016 12:36:39.445: MTKTestSTC: Expected Packet Count: 500
+19-07-2016 12:36:39.450: MTKTestSTC: Packets transmitted: 500
+19-07-2016 12:36:39.453: MTKTestSTC: Result: PASS
+19-07-2016 12:36:39.464: TestProgramManager: Running test program 3/5
+19-07-2016 12:36:39.480: MTKTestCUS: Custom Command | GPIO Continuity : 01 | Delay: 0ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 12:36:39.536: MTKTestCUS: Waiting for: 0
+19-07-2016 12:36:39.566: MTKTestCUS: 1A  ==  1A: PASS
+19-07-2016 12:36:39.569: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 12:36:39.573: MTKTestCUS: Result: PASS
+19-07-2016 12:36:39.581: TestProgramManager: Running test program 4/5
+19-07-2016 12:36:39.594: MTKTestCUS: Custom Command | GPIO Open_Short Test: 02 | Delay: 50ms | RetVal[0] == 1A, RetVal[1] == 02
+19-07-2016 12:36:39.651: MTKTestCUS: Waiting for: 50
+19-07-2016 12:36:39.729: MTKTestCUS: 9A  ==  1A: FAIL
+19-07-2016 12:36:39.734: MTKTestCUS: 02  ==  02: PASS
+19-07-2016 12:36:39.737: MTKTestCUS: Result: FAIL
+19-07-2016 12:36:39.753: TestProgramManager: Running test program 5/5
+19-07-2016 12:36:39.759: MTKTestCUS: Custom Command | Silicon Unique Number: 03 | Delay: 0ms | RetVal[0] >= 00, RetVal[1] >= 00, RetVal[2] >= 00, RetVal[3] >= 00, RetVal[4] >= 00, RetVal[5] >= 00
+19-07-2016 12:36:39.813: MTKTestCUS: Waiting for: 0
+19-07-2016 12:36:39.835: MTKTestCUS: 44  >=  00: PASS
+19-07-2016 12:36:39.837: MTKTestCUS: EC  >=  00: PASS
+19-07-2016 12:36:39.839: MTKTestCUS: E2  >=  00: PASS
+19-07-2016 12:36:39.840: MTKTestCUS: 0A  >=  00: PASS
+19-07-2016 12:36:39.842: MTKTestCUS: 0D  >=  00: PASS
+19-07-2016 12:36:39.843: MTKTestCUS: 15  >=  00: PASS
+19-07-2016 12:36:39.845: MTKTestCUS: Result: PASS
+19-07-2016 12:36:39.856: TestProgramManager: Overall test result: FAIL
+19-07-2016 12:36:39.868: CyBLE_MTK: Test program stopped.
+19-07-2016 12:36:56.925: CyBLE_MTK: Editing test program.
+19-07-2016 12:37:02.270: CyBLE_MTK: Test program edits cancelled.
+19-07-2016 12:43:18.965: CyBLE_MTK: Cleaning Up...
+19-07-2016 12:43:18.970: CyBLE_MTK: Test program stopped.
+19-07-2016 12:43:19.024: SerialPortSettingsDialog: Disconnected from "COM72 - KitProg USB-UART (COM72)".
+19-07-2016 12:43:19.037: SerialPortSettingsDialog: Disconnected from "COM3 - Intel(R) Active Management Technology - SOL (COM3)".
+19-07-2016 12:43:20.740: TestProgramManager: Saving test program.
+19-07-2016 12:43:34.466: TestProgramManager: Test program successfully saved to C:\Users\pzho\Desktop\Generic MTk\02200100\22200500.xml
+19-07-2016 12:43:34.469: TestProgramManager: 22200500.xml - test program closed.
+19-07-2016 12:43:34.497: LogManager: Stopped

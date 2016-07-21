@@ -1,0 +1,6 @@
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\bin\Debug\HexadecimalTextBox.dll
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\bin\Debug\HexadecimalTextBox.pdb
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\obj\Debug\HexadecimalTextBox.Properties.Resources.resources
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\obj\Debug\HexadecimalTextBox.csproj.GenerateResource.Cache
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\obj\Debug\HexadecimalTextBox.dll
+D:\Git\CyBLE_MTK_ApplicationV1.7\CyBLE_MTKv1.7\Application\CyBLE_MTK_Application\HexadecimalTextBox\obj\Debug\HexadecimalTextBox.pdb

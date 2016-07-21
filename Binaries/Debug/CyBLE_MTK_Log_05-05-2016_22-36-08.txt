@@ -1,0 +1,121 @@
+05-05-2016 22:36:08.451: LogManager: Started
+05-05-2016 22:36:09.481: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:10.354: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:10.541: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:10.729: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:10.916: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:11.103: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:11.290: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:11.477: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:11.665: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:11.852: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.039: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.226: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.413: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.601: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.788: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:12.975: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:13.162: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:13.349: MTKPSoCProgrammer: Discovered 2 programers.
+05-05-2016 22:36:13.412: CyBLE_MTK: Initialization complete
+05-05-2016 22:36:50.309: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:36:50.324: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:36:50.449: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:36:50.792: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:36:50.792: MTKTestBDA: PASS
+05-05-2016 22:37:25.098: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:37:25.098: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:37:25.223: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:37:25.535: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:37:25.535: MTKTestBDA: PASS
+05-05-2016 22:37:37.235: CyBLE_MTK: Writing BDA via: Device Programmer: DUT Programmer Settings Applied
+05-05-2016 22:37:37.235: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:37:37.360: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:37:37.672: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:37:37.672: MTKTestBDA: PASS
+05-05-2016 22:37:39.372: CyBLE_MTK: Writing BDA via: Device Programmer: DUT Programmer Settings Applied
+05-05-2016 22:37:39.372: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:37:39.497: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:37:39.809: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:37:39.809: MTKTestBDA: PASS
+05-05-2016 22:37:43.132: CyBLE_MTK: Authenticating...
+05-05-2016 22:37:43.912: CyBLE_MTK: Supervisory mode entered.
+05-05-2016 22:37:45.238: CyBLE_MTK: Editing preferences.
+05-05-2016 22:37:50.542: PreferencesDialog: Set application to log:: Relevant > Everything
+05-05-2016 22:37:50.542: PreferencesDialog: Application Log Path:  > C:\Users\dejo.CYSEMI\Perforce\dejo_temp\apps\Wireless\PRoC-BLE\CyBLE_MTK\Application\Binaries\Debug
+05-05-2016 22:37:50.542: PreferencesDialog: Test Log Path:  > C:\Users\dejo.CYSEMI\Perforce\dejo_temp\apps\Wireless\PRoC-BLE\CyBLE_MTK\Application\Binaries\Debug
+05-05-2016 22:37:50.557: PreferencesDialog: All changes saved.
+05-05-2016 22:37:53.702: TestProgramManager: NewTestProgram1 - test program created.
+05-05-2016 22:37:53.702: CyBLE_MTK: Editing test program.
+05-05-2016 22:38:02.345: TestProgramDialog: Adding MTKTestBDAProgrammer to the test list.
+05-05-2016 22:38:03.889: CyBLE_MTK: Test program edits complete.
+05-05-2016 22:38:05.090: CyBLE_MTK: Running test program.
+05-05-2016 22:38:05.106: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:05.137: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:05.137: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:05.153: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:05.278: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:05.590: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:05.590: MTKTestBDA: PASS
+05-05-2016 22:38:05.792: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:05.792: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:05.792: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:07.680: CyBLE_MTK: Running test program.
+05-05-2016 22:38:07.696: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:07.711: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:07.711: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:07.727: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:07.852: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:08.148: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:08.148: MTKTestBDA: PASS
+05-05-2016 22:38:08.351: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:08.351: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:08.351: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:09.412: CyBLE_MTK: Running test program.
+05-05-2016 22:38:09.412: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:09.427: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:09.427: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:09.443: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:09.568: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:09.880: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:09.880: MTKTestBDA: PASS
+05-05-2016 22:38:10.082: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:10.082: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:10.082: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:10.816: CyBLE_MTK: Running test program.
+05-05-2016 22:38:10.816: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:10.831: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:10.847: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/0920122A011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:10.847: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:10.972: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:11.284: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:11.284: MTKTestBDA: PASS
+05-05-2016 22:38:11.486: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:11.486: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:11.486: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:23.285: CyBLE_MTK: Running test program.
+05-05-2016 22:38:23.285: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:23.301: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:23.316: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/071D012B011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:23.316: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:23.441: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:23.691: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:23.691: MTKTestBDA: PASS
+05-05-2016 22:38:23.894: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:23.894: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:23.894: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:25.563: CyBLE_MTK: Running test program.
+05-05-2016 22:38:25.563: TestProgramManager: Selecting DUT 1/1 for tests
+05-05-2016 22:38:25.578: TestProgramManager: Running test program 1/1
+05-05-2016 22:38:25.594: CyBLE_MTK: Writing BDA via: Programmer Action: Program | Programmer: KitProg/071D012B011A3400 | Programming Mode: Reset | Connector: 5p | Voltage: 5.0 V | Clock Speed: 3.0 MHz | Validate: True
+05-05-2016 22:38:25.594: MTKTestBDA: Programming BD Adress...
+05-05-2016 22:38:25.719: MTKPSoCProgrammer: Programmer port successfully opened.
+05-05-2016 22:38:25.953: MTKPSoCProgrammer: Programmer port successfully closed.
+05-05-2016 22:38:25.953: MTKTestBDA: PASS
+05-05-2016 22:38:26.140: MTKPSoCProgrammer: Discovered 1 programers.
+05-05-2016 22:38:26.156: TestProgramManager: Overall test result: PASS
+05-05-2016 22:38:26.156: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:27.497: CyBLE_MTK: Cleaning Up...
+05-05-2016 22:38:27.513: CyBLE_MTK: Test program stopped.
+05-05-2016 22:38:29.316: TestProgramManager: NewTestProgram1 - test program closed.
+05-05-2016 22:38:29.332: LogManager: Stopped
